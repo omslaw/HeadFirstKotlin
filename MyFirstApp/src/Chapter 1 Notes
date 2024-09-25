@@ -23,4 +23,5 @@ var x = 10
      print(if (x < 3) "small $x " else " big $x ")
  }
 
-
+got mixed messages all correct
+got code magnets correct as well
