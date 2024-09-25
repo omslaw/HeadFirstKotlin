@@ -1,0 +1,26 @@
+Exercises
+
+1. Infinite loop
+x not being incremented with x = x + 1
+
+2. cant run as variable is using val instead of var since its being
+incremented
+printing on same line but using print and no variable to output
+so use $x and space
+
+var x = 10
+ while ( x > 1) {
+     x = x - 1
+     if (x < 3) println("small $x ")
+ }
+
+3. will all print on same line. no variables and no else so wont
+compile
+
+var x = 10
+ while (x > 1) {
+     x = x - 1
+     print(if (x < 3) "small $x " else " big $x ")
+ }
+
+
