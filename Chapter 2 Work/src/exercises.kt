@@ -12,4 +12,10 @@ fun main(args: Array<String>) {
     // isPunk = "false" // wont work since this should be boolean not string
     // var k = y.toDouble()  // y is 57 int
     // b = k.toByte() // byte is good up to 127 so should be fine
+
+    // Other chap exercises
+
+    var myArray = arrayOf(1, 2, 3)
+    println(myArray[0])
+    println(myArray.size)
 }
