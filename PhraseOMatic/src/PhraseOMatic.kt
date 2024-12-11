@@ -17,7 +17,6 @@ fun main (args: Array<String>) {
     println(rand2)
     println(rand3)
 
-
     val phrase = "${wordArray1[rand1]} ${wordArray2[rand2]} ${wordArray3[rand3]}"
 
     println(phrase)
