@@ -1,0 +1,54 @@
+Be the compiler exercises
+
+1. I don't see anything wrong with it
+
+fun doSomething(msg: String, i: Int): Unit {
+if (i > 0) {
+var x = 0
+while (x < i) {
+println(msg)
+x = x + 1
+}
+}
+}
+
+ANSWER: page 155 and my answer correct
+
+2. you can't modify the passed in variable. should be a new
+variable created and then have the *3 and return the new variable
+
+fun timesThree(x: Int): Int {
+x = x * 3
+return x
+}
+
+Answer: page 155. my answer mostly correct, but when you create new variable
+the *3 return value might end up being bigger than an int so has to be considered
+
+
+3. No return type listed.. should be int return .. do you need to handle 0 or
+negative numbers? should while loop be <= instead? is array skipping 0 in the array?
+
+
+fun maxValue(args: Array<Int>) {
+var max = args[0]
+var x = 1
+while (x < args.size) {
+var item = args[x]
+max = if (max >= item) max else item
+x = x + 1
+}
+return max
+}
+
+Answer: page 155 - my answer is correct, wont compile because function needs to declare
+it returns an int... the rest of my answer was moot i suppose since question was whether
+it will compile or not.
+
+-----
+
+Good note to remember:
+
+While loops run while a given condition is true.
+For loops run over a range of values or items.
+
