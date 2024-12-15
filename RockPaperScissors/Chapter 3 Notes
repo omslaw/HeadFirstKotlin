@@ -45,6 +45,167 @@ Answer: page 155 - my answer is correct, wont compile because function needs to 
 it returns an int... the rest of my answer was moot i suppose since question was whether
 it will compile or not.
 
+
+///////////// Mixe Messages Exercise
+
+ --- x += 6
+
+x = 6 15 24
+y 21  22  23
+x 9   18  27
+
+y 21
+
+x 33 42 51
+y 22 23 24
+x 36 45 54
+
+y 22
+
+x 60 69 78
+y 23 24 25
+x 63 72 81
+
+y 23
+
+answer x = 81 y = 23
+correct but missed at first
+
+-----   x--
+
+x -1 1 3
+y 21 22 23
+x 2 4  6
+
+y 21
+
+x 5 7 9
+y 21  22 23
+x  8 10 12
+
+y 22
+
+x 11 13 15
+y 23 24 25
+x 14 16 18
+
+y 23
+
+answer x=18  y=23
+correct
+
+----- y = x + y
+
+x 0  3   6
+y 20 24  31
+y 21 25  32
+x 3  6   9
+
+y 30
+
+x 9   12  15
+y 39  52  68
+y 40  53  69
+x 12  15  18
+
+y 67
+
+x 18 21  24
+y 85  107 132
+y 86  108 133
+x 21 24  27
+
+y 131
+
+Answer x = 27 and y = 131
+correct
+
+----- y = 7
+
+y 7 7 7
+y 8 8 8
+x 3 6 9
+
+y 6
+
+y 7 7  7
+y 8 8  8
+x 12 15 18
+
+y 6
+
+figured it out
+Answer is x=27 and y=6
+correct
+
+------  x = x + y
+------  y = x - 7
+
+
+x=x+y  20 37 71
+y=x-7  13 30 64
+y++    14 31 65
+x+3    23 40 74
+
+y-2  63
+
+x=x+y  137 271 539
+y=x-7  130 264 532
+y++    131 265 533
+x+3    140 274 542
+
+y-2  531
+
+x=x+y  1073 2143 4283
+y=x-7  1066 2136  4276
+y++    1067 2137  4277
+x+3    1076 2146  4286
+
+y-2 4275
+
+answer x=4286  y=4275
+got it wrong first time but found issue now correct
+
+-----  x = y
+----- y++
+
+
+x=y 20  22  24
+y++ 21  23  25
+y++ 22  24  26
+x+3 23  25  27
+
+y-2 24
+
+x=y 24 26 28
+y++ 25 27 29
+y++ 26 28 30
+x+3 27 29 31
+
+y-2 28
+
+x=y 28 30 32
+y++ 29 31 33
+y++ 30 32 34
+x+3 31 33 35
+
+y-2 32
+
+answer x=35 and y=32
+correct
+
+
+
+
+
+
+
+
+
+
+
+
+
 -----
 
 Good note to remember:
