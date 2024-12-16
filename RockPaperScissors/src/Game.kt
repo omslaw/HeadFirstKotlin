@@ -22,7 +22,7 @@ fun getUserChoice(optionsParam: Array<String>): String {
         if (userInput != null) {
             userInput = userInput.capitalize()
         }
-        
+
         // Validate the user input
         if (userInput != null && userInput in optionsParam) {
             isValidChoice = true
