@@ -14,12 +14,11 @@ class DrumKit (var hasTopHat: Boolean, var hasSnare: Boolean) {
     fun playSnare() {
         println ("bang bang bang!")
     }
-
-
-
 }
 
 fun main(args: Array<String>) {
+    val d = DrumKit(true, true)
+    
 
 }
 
